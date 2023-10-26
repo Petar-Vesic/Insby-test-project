@@ -1,0 +1,48 @@
+/* Styling for the product container */
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for each product card */
+.product-card {
+  display: flex;
+  margin: 20px;
+}
+
+/* Styling for the image container within a product card */
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Styling for product images */
+img {
+  max-width: 100%;
+}
+
+/* Styling for the product details within a product card */
+.product-details {
+  flex: 1;
+}
+
+/* Styling for the regular price button */
+.regular-price-button {
+  background-color: black;
+  border-radius: 24px;
+  color: white;
+  margin-top: 130px;
+  height: 40px;
+  width: 150px;
+}
+
+/* Styling for the member price button */
+.member-price-button {
+  border-radius: 24px;
+  border: red;
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 150px;
+}

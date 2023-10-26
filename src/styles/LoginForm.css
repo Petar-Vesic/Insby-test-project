@@ -1,0 +1,74 @@
+/* Styling for the email address input field */
+.email-address-login {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  overflow: hidden;
+  opacity: 1;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
+  border: 1px solid rgb(40, 40, 40);
+}
+
+/* Styling for the form container */
+form {
+  display: flex;
+  flex-direction: column;
+  color: rgb(93, 93, 91);
+}
+
+/* Styling for paragraph text within the form */
+p {
+  color: rgb(93, 93, 91);
+}
+
+/* Styling for div elements within the form */
+form > div {
+  margin-bottom: 10px;
+}
+
+/* Styling for the login button */
+.login-button {
+  top: 550px;
+  left: 1005px;
+  width: 259px;
+  height: 45px;
+  background-color: black;
+  border-radius: 24px;
+  color: white;
+}
+
+/* Styling for the create account section */
+.create-account {
+  margin-top: 10px;
+}
+
+/* Styling for the span element */
+span {
+  color: rgb(93, 93, 91);
+}
+
+/* Styling for the register button */
+.register-button {
+  margin-left: 5px;
+  color: rgb(93, 93, 91);
+  text-decoration-line: none;
+}
+
+/* Styling for the password input field */
+.password-login {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  overflow: hidden;
+  opacity: 1;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
+  border: 1px solid rgb(40, 40, 40);
+}
